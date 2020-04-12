@@ -4,13 +4,41 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="hw6_dictionary.MainPage">
+             x:Class="hw6_dictionary.MainPage"
+             BackgroundColor="Light">
 
     <StackLayout>
         <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
+        <Entry Placeholder="Look up a word" BackgroundColor="AliceBlue" HorizontalOptions="Center" MaxLength="16"/>
+
+
+        <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+            <Label Text="Word" 
+                   FontAttributes="Bold" FontSize="Large"
+                   HorizontalOptions="Center"/>
+            <Label Text="(Procounced)" VerticalOptions="CenterAndExpand" />
+        </StackLayout>
+        <StackLayout Orientation="Horizontal" HorizontalOptions="Start" Padding="50">
+            <Label Text="Type" 
+                   HorizontalOptions="Center"
+                   VerticalOptions="CenterAndExpand" />
+            <Image Source="Emoji" 
+                   HorizontalOptions="Center"
+                   VerticalOptions="CenterAndExpand" />
+        </StackLayout>
+        
+        <Label Text="Def" 
+               Padding="50"    
+               HorizontalOptions="Start"
+               VerticalOptions="CenterAndExpand" />
+        <Image Source="image.png"
+               HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand" />
+        <Label Text="Example" 
+               Padding="50" 
+               HorizontalOptions="Start"
+               VerticalOptions="CenterAndExpand" />
+
     </StackLayout>
 
 </ContentPage>

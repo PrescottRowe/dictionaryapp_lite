@@ -1,0 +1,7 @@
+C:\Users\presc\source\repos\hw6_dictionary\hw6_dictionary\hw6_dictionary\bin\Debug\netstandard2.0\hw6_dictionary.deps.json
+C:\Users\presc\source\repos\hw6_dictionary\hw6_dictionary\hw6_dictionary\bin\Debug\netstandard2.0\hw6_dictionary.dll
+C:\Users\presc\source\repos\hw6_dictionary\hw6_dictionary\hw6_dictionary\obj\Debug\netstandard2.0\hw6_dictionary.csprojAssemblyReference.cache
+C:\Users\presc\source\repos\hw6_dictionary\hw6_dictionary\hw6_dictionary\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\presc\source\repos\hw6_dictionary\hw6_dictionary\hw6_dictionary\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\presc\source\repos\hw6_dictionary\hw6_dictionary\hw6_dictionary\obj\Debug\netstandard2.0\hw6_dictionary.AssemblyInfoInputs.cache
+C:\Users\presc\source\repos\hw6_dictionary\hw6_dictionary\hw6_dictionary\obj\Debug\netstandard2.0\hw6_dictionary.AssemblyInfo.cs

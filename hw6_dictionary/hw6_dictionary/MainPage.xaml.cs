@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
+using System.Json;
 
 namespace hw6_dictionary
 {
@@ -16,6 +17,9 @@ namespace hw6_dictionary
         public MainPage()
         {
             InitializeComponent();
+            var json = JsonValue.Parse(myStringJson);
+            var data = json["data"];
         }
+        public 
     }
 }
