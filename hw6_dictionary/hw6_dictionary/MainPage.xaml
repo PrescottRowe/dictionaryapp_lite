@@ -5,7 +5,7 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="hw6_dictionary.MainPage"
-             BackgroundColor="Light">
+             BackgroundColor="LightCoral">
 
     <StackLayout>
         <!-- Place new controls here -->
@@ -22,7 +22,7 @@
             <Label Text="Type" 
                    HorizontalOptions="Center"
                    VerticalOptions="CenterAndExpand" />
-            <Image Source="Emoji" 
+            <Image Source="" 
                    HorizontalOptions="Center"
                    VerticalOptions="CenterAndExpand" />
         </StackLayout>
@@ -31,7 +31,7 @@
                Padding="50"    
                HorizontalOptions="Start"
                VerticalOptions="CenterAndExpand" />
-        <Image Source="image.png"
+        <Image Source=""
                HorizontalOptions="Center"
                VerticalOptions="CenterAndExpand" />
         <Label Text="Example" 

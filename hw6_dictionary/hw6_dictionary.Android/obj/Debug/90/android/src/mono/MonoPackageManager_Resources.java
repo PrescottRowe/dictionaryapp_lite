@@ -2,8 +2,12 @@ package mono;
 public class MonoPackageManager_Resources {
 	public static String[] Assemblies = new String[]{
 		/* We need to ensure that "hw6_dictionary.Android.dll" comes first in this list. */
+		"hw6_dictionary.Android.dll",
 		"FormsViewGroup.dll",
+		"hw6_dictionary.dll",
 		"Newtonsoft.Json.dll",
+		"Plugin.Connectivity.Abstractions.dll",
+		"Plugin.Connectivity.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",
 		"Xamarin.Android.Arch.Core.Runtime.dll",
 		"Xamarin.Android.Arch.Lifecycle.Common.dll",
