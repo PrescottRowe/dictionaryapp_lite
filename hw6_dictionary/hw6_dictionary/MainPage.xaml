@@ -12,32 +12,42 @@
         <Entry Placeholder="Look up a word" BackgroundColor="AliceBlue" HorizontalOptions="Center" MaxLength="16"/>
 
 
-        <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
-            <Label Text="Word" 
-                   FontAttributes="Bold" FontSize="Large"
+        <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center">
+            <Label x:Name="Word" 
+                   FontAttributes="Bold" FontSize="55"  TextColor="Black"
                    HorizontalOptions="Center"/>
-            <Label Text="(Procounced)" VerticalOptions="CenterAndExpand" />
+            <Label x:Name="Pronunciation" 
+                   VerticalOptions="CenterAndExpand" 
+                   FontSize="20"/>
         </StackLayout>
-        <StackLayout Orientation="Horizontal" HorizontalOptions="Start" Padding="50">
-            <Label Text="Type" 
+        <StackLayout Orientation="Horizontal" 
+                     HorizontalOptions="Start" 
+                     Padding="50,0,0,0">
+            <Label x:Name="Type" 
+                   TextColor="Black"
                    HorizontalOptions="Center"
-                   VerticalOptions="CenterAndExpand" />
-            <Image Source="" 
+                   FontSize="25"
+                   FontAttributes="Bold"
+                   />
+            <Label x:Name="Emoji" 
                    HorizontalOptions="Center"
-                   VerticalOptions="CenterAndExpand" />
+                   FontSize="25"
+                    />
         </StackLayout>
-        
-        <Label Text="Def" 
-               Padding="50"    
+
+        <Label x:Name="DefinitionDefinition" 
+               Padding="50,0,0,0"    
                HorizontalOptions="Start"
-               VerticalOptions="CenterAndExpand" />
-        <Image Source=""
+               VerticalOptions="Center"
+               FontSize="20"/>
+        <Image x:Name="ImageUrl"
                HorizontalOptions="Center"
-               VerticalOptions="CenterAndExpand" />
-        <Label Text="Example" 
-               Padding="50" 
+               VerticalOptions="Center" />
+        <Label x:Name="Example" 
+               Padding="50,0,0,0" 
                HorizontalOptions="Start"
-               VerticalOptions="CenterAndExpand" />
+               VerticalOptions="Center"
+               FontSize="20"/>
 
     </StackLayout>
 

@@ -63,7 +63,7 @@ namespace hw6_dictionary
             HttpClient client = new HttpClient();
             var uri = new Uri(
                 string.Format(
-                    $"https://owlbot.info/api/v4/dictionary/owl"));
+                    $"https://owlbot.info/api/v4/dictionary/dictionary"));
             var request = new HttpRequestMessage();
             request.Headers.Authorization= new AuthenticationHeaderValue("Token", "42cd430cf80c99d27a5a628d4ff31aa70943ac57"); 
             request.Method = HttpMethod.Get;
@@ -80,6 +80,17 @@ namespace hw6_dictionary
                 wordData = JsonConvert.DeserializeObject<WordItemModel.WordItem>(content);
                 Console.WriteLine("--------------------------+++4----------------------");
                 Console.WriteLine(wordData.Definitions[0].Emoji);
+
+
+                Word.Text = wordData.Word;
+                Pronunciation.Text = wordData.Pronunciation;
+                Type.Text = wordData.Definitions[0].Type;
+                DefinitionDefinition.Text = wordData.Definitions[0].DefinitionDefinition;
+                Example.Text = wordData.Definitions[0].Example;
+                ImageUrl.Source = (string)wordData.Definitions[0].ImageUrl;
+                Emoji.Text = (string)wordData.Definitions[0].Emoji;
+                
+
             }
         }
     }
