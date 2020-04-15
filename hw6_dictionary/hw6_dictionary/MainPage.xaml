@@ -8,6 +8,7 @@
              BackgroundImageSource="WP4.jpg">
     <ScrollView Orientation="Vertical">
         <StackLayout Padding="0,30,0,0">
+           <Label x:Name="ConNet" VerticalOptions="Start" HorizontalOptions="Center" FontSize="Large" />
             <Entry x:Name="searchWord" Placeholder="Look up a word" 
                 ClearButtonVisibility="WhileEditing"
                 IsTextPredictionEnabled="True"
