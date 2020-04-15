@@ -5,50 +5,60 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="hw6_dictionary.MainPage"
-             BackgroundColor="LightCoral">
-
-    <StackLayout>
-        <!-- Place new controls here -->
-        <Entry Placeholder="Look up a word" BackgroundColor="AliceBlue" HorizontalOptions="Center" MaxLength="16"/>
-
-
-        <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center">
-            <Label x:Name="Word" 
-                   FontAttributes="Bold" FontSize="55"  TextColor="Black"
-                   HorizontalOptions="Center"/>
-            <Label x:Name="Pronunciation" 
-                   VerticalOptions="CenterAndExpand" 
-                   FontSize="20"/>
-        </StackLayout>
-        <StackLayout Orientation="Horizontal" 
-                     HorizontalOptions="Start" 
-                     Padding="50,0,0,0">
-            <Label x:Name="Type" 
+             BackgroundImageSource="WP4.jpg">
+    <ScrollView Orientation="Vertical">
+        <StackLayout Padding="0,30,0,0">
+            <Entry x:Name="searchWord" Placeholder="Look up a word" 
+                ClearButtonVisibility="WhileEditing"
+                IsTextPredictionEnabled="True"
+                IsSpellCheckEnabled="True"
+                ReturnType="Search"
+                Completed="OnButtonClicked"
+                BackgroundColor="LightYellow" 
+                FontSize="30"
+                HorizontalOptions="Center" MaxLength="16"/>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center">
+                <Label x:Name="Word" 
+                       FontAttributes="Bold" FontSize="60"  TextColor="Black"
+                       HorizontalOptions="Center"/>
+                <Label x:Name="Pronunciation" 
+                       VerticalOptions="CenterAndExpand" 
+                       FontSize="25"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" 
+                         HorizontalOptions="Start" 
+                         Padding="30,0,30,0">
+                <Label x:Name="Type" 
+                       TextColor="Black"
+                       HorizontalOptions="Center"
+                       FontSize="30"
+                       FontAttributes="Bold"
+                       />
+                <Label x:Name="Emoji" 
+                       HorizontalOptions="Center"
+                       FontSize="30"
+                        />
+            </StackLayout>
+            <Label x:Name="DefinitionDefinition" 
+                   Padding="30,30,30,0"    
+                   HorizontalOptions="Start"
+                   VerticalOptions="Center"
                    TextColor="Black"
+                   FontSize="25"/>
+            <Image x:Name="ImageUrl"
+                   Aspect="AspectFill"
+                   HeightRequest="300"
+                   WidthRequest="300"
                    HorizontalOptions="Center"
-                   FontSize="25"
-                   FontAttributes="Bold"
-                   />
-            <Label x:Name="Emoji" 
-                   HorizontalOptions="Center"
-                   FontSize="25"
-                    />
+                   VerticalOptions="Center" />
+            <Label x:Name="Example" 
+                   Padding="30,0,30,0" 
+                   HorizontalOptions="Start"
+                   VerticalOptions="Center"
+                   TextColor="Black"
+                   FontAttributes="Italic"
+                   FontSize="25"/>
         </StackLayout>
-
-        <Label x:Name="DefinitionDefinition" 
-               Padding="50,0,0,0"    
-               HorizontalOptions="Start"
-               VerticalOptions="Center"
-               FontSize="20"/>
-        <Image x:Name="ImageUrl"
-               HorizontalOptions="Center"
-               VerticalOptions="Center" />
-        <Label x:Name="Example" 
-               Padding="50,0,0,0" 
-               HorizontalOptions="Start"
-               VerticalOptions="Center"
-               FontSize="20"/>
-
-    </StackLayout>
+    </ScrollView>
 
 </ContentPage>

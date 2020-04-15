@@ -479,3 +479,5 @@ C:\Users\presc\source\repos\hw6_dictionary\hw6_dictionary\hw6_dictionary.Android
 C:\Users\presc\source\repos\hw6_dictionary\hw6_dictionary\hw6_dictionary.Android\obj\Debug\90\stamp\_GenerateJavaStubs.stamp
 C:\Users\presc\source\repos\hw6_dictionary\hw6_dictionary\hw6_dictionary.Android\obj\Debug\90\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\presc\source\repos\hw6_dictionary\hw6_dictionary\hw6_dictionary.Android\obj\Debug\90\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\presc\source\repos\hw6_dictionary\hw6_dictionary\hw6_dictionary.Android\obj\Debug\90\res\drawable\nf.jpg
+C:\Users\presc\source\repos\hw6_dictionary\hw6_dictionary\hw6_dictionary.Android\obj\Debug\90\res\drawable\wp4.jpg

@@ -24,5 +24,6 @@ namespace hw6_dictionary
         protected override void OnResume()
         {
         }
+        public string SearchWord { get; set; }
     }
 }
